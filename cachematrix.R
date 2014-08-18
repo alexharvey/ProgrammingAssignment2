@@ -1,4 +1,5 @@
 ## makeCacheMatrix cache an inverse of a given matrix
+## cacheSolve computes the matrix inverse or returns the cache copy
 
 ## makeCacheMatrix
 ## Creates a special "matrix" which is a list containing:
@@ -26,7 +27,6 @@ makeCacheMatrix <- function(x = matrix()) {
     list(set = set, get = get, 
          setinverse = setinverse,
          getinverse = getinverse)
-    
 }
 
 ## cacheSolve
